@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>NightSector Solutions</title>
+<link rel="stylesheet" href="emergency.css">
+<link rel="stylesheet" href="layout.css">
+<link rel="icon" 
+      type="image/png" 
+      href="./images/favicon.ico">
+      <meta charset="utf-8" />
+      <meta name="viewport" content="width-device-width, initial-scale=1">
+
+
+      <style>
+        @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+        @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100&display=swap');
+        @import url('https://fonts.googleapis.com/css2?family=Oswald:wght@500&display=swap');
+        </style>
+      
+</head>
+<body>
+  <div class="navbar">
+    <div class="menu">
+      <ul>
+        <li class="logo"><img src="./images/logo.png" height="50px" width="80px"></li> 
+        <li class="buttons"><a href="./index.html">Home</a><li>
+        <li class="buttons"><a href="./lm.html">Learn More</a><li>
+        <li class="buttons"><a href="./services.html">Our Services</a><li>
+        <li class="buttons"><a href="./faqs.html">FAQs</a><li>
+        <li class="buttons"><a href="./cyber.html">Why Choose Cyber?</a><li></li>
+        <li class="buttons"><a href="./emergency.html">Emergency Response</a><li>
+        <li class="buttons"><a href="./subscriptions.html">Subscription Plans</a><li></li>
+      </ul>
+
+
+  <div class="title">
+	<h1>Emergency Response Form - Receive Urgent Threat Escalation</h1>
+	<h2>Please provide as much information as possible, our team is working around the clock to provide you with a nearly instant threat response system.</h2>
+  </div>
+<div class="container">
+  <form>
+
+    <h2>First and Last Name</h2>
+    <input type="text" id="fname" name="firstname" placeholder="Please Enter Your First Name">
+
+    <h2>Company or Business Name</h2>
+    <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+	
+	<h2>Phone Number</h2>
+    <input type="text" id="phone" name="phone" placeholder="Best phone number to reach you at...">
+
+    <h2>Country</h2>
+    <select id="country" name="country">
+	  <option value="usa">USA</option>
+      <option value="canada">Canada</option>
+    </select>
+
+    <h2>Detailed Infection Description</h2>
+    <textarea id="subject" name="subject" placeholder="Please enter a detailed and informative description to help our technicians." style="height:200px"></textarea>
+    <input class="submit" onclick="alert('Ticket Submitted, We will reach out to you as soon as possible!')" type="submit" value="Submit Ticket">
+
+  </form>
+</div>
+</body>
+</html>

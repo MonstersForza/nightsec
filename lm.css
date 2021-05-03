@@ -1,0 +1,146 @@
+* {
+margin: 0;
+padding: 0;
+}
+
+body {
+background-color: #011212;
+}
+
+.container {
+  width: 100%;
+  height: 100%;
+  background: #011212;
+
+}
+
+.menu ul {
+  display: inline-flex;
+  margin: 50px;
+
+}
+
+a:link, a:visited {
+  text-decoration: none;
+  color: gray;
+}
+
+a:hover, a:active {
+  background-color: transparent;
+  color: white;
+  border: 2px solid #48d1cc;
+  border-radius: 10px;
+  padding: 10px;
+  text-decoration: none;
+}
+
+.menu ul li {
+  font-size: 20px;
+  list-style: none;
+  margin: 0 20px;
+  color: gray;
+  cursor: pointer;
+  font-family: 'Bebas Neue';
+  text-decoration: none;
+}
+
+.logo img {
+  margin-top: -10px;
+  filter: brightness(0) invert(1);
+}
+
+.logo img:hover {
+	margin-top: -10px;
+	filter: none;
+}
+
+.title {
+  text-align: center;
+  padding-top: 0;
+
+}
+
+.title h2{
+	text-align: center;
+	font-size: 20px;
+    font-family: 'Montserrat', sans-serif;
+    color: white;
+	font-weight: 900;
+}
+
+.top{
+	display: inline-flex;
+    align-items: center;
+    justify-content: center
+	
+}
+.top p{
+	float: right;
+	text-align: center;
+	font-size: 35px;
+    font-family: 'Montserrat', sans-serif;
+    color: white;
+	border: 2px solid;
+    border-image-slice: 1;
+    border-image-source: linear-gradient(to left, #743ad5, #48d1cc);
+	border-radius: 15px;
+	padding-right: 15px;
+	
+}
+.top img{
+	vertical-align: middle;
+}
+
+.bottom{
+	display: inline-flex;
+	align-items: center;
+    justify-content: center;
+}
+.bottom p{
+	float: right;
+	text-align: center;
+	font-size: 35px;
+    font-family: 'Montserrat', sans-serif;
+    color: white;
+	border: 2px solid;
+    border-image-slice: 1;
+    border-image-source: linear-gradient(to left, #48d1cc, #743ad5);
+	padding-right: 15px;
+}
+.bottom img{
+	vertical-align: middle;
+}
+
+.title > h1 {
+font-size: 100px;
+font-family: 'Bebas Neue';
+color: #48d1cc;
+}
+
+.title > h3 {
+  font-size: 20px;
+  font-family: 'Montserrat', sans-serif;
+  color: white;
+}
+
+.button {
+  padding: 15px 25px 15px 25px;
+  align-items: center;
+  text-align: center;
+}
+.button > button {
+  cursor: pointer;
+  background-color: #011212;
+  color: white;
+  font-size: 50px;
+  font-family: 'Bebas Neue';
+  border: 5px solid;
+  border-image-slice: 1;
+  border-image-source: linear-gradient(to left, #743ad5, #48d1cc);
+}
+
+.button:hover, :visited {
+  background: linear-gradient(to left, #743ad5, #48d1cc);
+  color: #011212;
+  cursor: pointer;
+}

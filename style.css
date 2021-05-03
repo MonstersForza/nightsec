@@ -1,0 +1,111 @@
+* {
+margin: 0;
+padding: 0;
+}
+
+body {
+background-color: #011212;
+}
+
+.container {
+  width: 100%;
+  height: 100%;
+  background: #011212;
+
+}
+
+.menu ul {
+  display: inline-flex;
+  margin: 50px;
+
+}
+
+a:link, a:visited {
+  text-decoration: none;
+  color: gray;
+}
+
+a:hover, a:active {
+  background-color: transparent;
+  color: white;
+  border: 2px solid #48d1cc;
+  border-radius: 10px;
+  padding: 10px;
+  text-decoration: none;
+}
+
+.menu ul li {
+  font-size: 20px;
+  list-style: none;
+  margin: 0 20px;
+  color: gray;
+  cursor: pointer;
+  font-family: 'Bebas Neue';
+  text-decoration: none;
+}
+
+.logo img {
+  margin-top: -10px;
+  filter: brightness(0) invert(1);
+  text-decoration: none !important;
+}
+
+.logo img:hover {
+	margin-top: -10px;
+	filter: none;
+  text-decoration: none !important;
+}
+
+.button {
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  display: block;
+}
+
+.learnMore {
+  background-color: #011212;
+  color: white;
+  font-size: 50px;
+  font-family: 'Bebas Neue';
+  margin: 25px 10px 25px 10px;
+  padding: 5px 10px 5px 10px;
+  border: 5px solid;
+  border-image-slice: 1;
+  border-image-source: linear-gradient(to left, #743ad5, #48d1cc);
+}
+
+.learnMore:hover, :visited {
+  background: linear-gradient(to left, #743ad5, #48d1cc);
+  color: #011212;
+}
+
+.title {
+  text-align: center;
+  padding-top: 5vh;
+
+}
+
+.title > h1 {
+font-size: 150px;
+font-family: 'Bebas Neue';
+color: #48d1cc;
+}
+
+.title > h3 {
+  font-size: 25px;
+  font-family: 'Montserrat', sans-serif;
+  color: white;
+}
+
+.title > h2 {
+	font-size: 40px;
+	font-family: 'Montserrat', sans-serif;
+    color: white;
+	
+}
+
+.splash img:hover {
+  filter: drop-shadow(16px 16px 20px red) invert(75%);
+  cursor: crosshair;
+}

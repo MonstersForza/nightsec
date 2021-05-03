@@ -1,0 +1,157 @@
+* {
+margin: 0;
+padding: 0;
+}
+
+body {
+background-color: #011212;
+}
+
+.container {
+  width: 100%;
+  height: 100%;
+  background: #011212;
+
+}
+
+.menu ul {
+  display: inline-flex;
+  margin: 50px;
+
+}
+
+a:link, a:visited {
+  text-decoration: none;
+  color: gray;
+}
+
+a:hover, a:active {
+  background-color: transparent;
+  color: white;
+  border: 2px solid #48d1cc;
+  border-radius: 10px;
+  padding: 10px;
+  text-decoration: none;
+}
+
+.menu ul li {
+  font-size: 20px;
+  list-style: none;
+  margin: 0 20px;
+  color: gray;
+  cursor: pointer;
+  font-family: 'Bebas Neue';
+  text-decoration: none;
+}
+
+.logo img {
+  margin-top: -10px;
+  filter: brightness(0) invert(1);
+  text-decoration: none !important;
+}
+
+.logo img:hover {
+	margin-top: -10px;
+	filter: none;
+  text-decoration: none !important;
+}
+
+.button {
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  display: block;
+  padding-top: 5vh;
+}
+
+.subButton {
+  cursor: pointer;
+  background-color: #011212;
+  color: white;
+  font-size: 50px;
+  font-family: 'Bebas Neue';
+  margin: 25px 10px 25px 10px;
+  padding: 5px 10px 5px 10px;
+  border: 5px solid;
+  border-image-slice: 1;
+  border-image-source: linear-gradient(to left, #743ad5, #48d1cc);
+}
+
+.subButton:hover, :visited {
+  background: linear-gradient(to left, #743ad5, #48d1cc);
+  color: #011212;
+}
+
+.title {
+  text-align: center;
+  padding-top: 5vh;
+
+}
+
+.title > h1 {
+font-size: 80px;
+font-family: 'Bebas Neue';
+color: #48d1cc;
+}
+
+.top  {
+  padding: 25px 55px 25px 55px;
+  width: 80vh;
+  padding-left: 25vh;
+}
+
+.top > h1 {
+  color: white;
+  font-family: "Bebas Neue";
+  font-size: 80px;
+}
+.top > h2 {
+  color: white;
+  font-family: "Bebas Neue";
+  font-size: 40px;
+}
+.top > h3 {
+  color: white;
+  font-family: "Montserrat";
+  font-size: 20px;
+}
+.topimg {
+  float: right;
+  position: absolute;
+  padding-left: 100vh;  
+}
+.topimg > img {
+  width: 550px;
+
+}
+.bottom  {
+  padding: 25px 55px 25px 55px;
+  width: 150vh;
+  padding-left: 25vh;
+  text-align: right;
+
+}
+
+.bottom > h1 {
+  padding-top: 50px;
+  color: white;
+  font-family: "Bebas Neue";
+  font-size: 80px;
+}
+.bottom > h2 {
+  color: white;
+  font-family: "Bebas Neue";
+  font-size: 40px;
+}
+.bottom > h3 {
+  color: white;
+  font-family: "Montserrat";
+  font-size: 20px;
+}
+.bottomimg {
+  float: left;
+}
+.bottomimg > img {
+  width: 550px;
+
+}
